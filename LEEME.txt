@@ -1,0 +1,24 @@
+Proyecto: pryBarbero-BDAcces
+Namespace usado en C#: pryBarbero_BDAcces
+
+Aclaración:
+C# no permite usar guion medio (-) dentro de un namespace. Por eso el proyecto y el ejecutable se llaman pryBarbero-BDAcces, pero el namespace válido es pryBarbero_BDAcces.
+
+Cómo abrir el proyecto:
+1. Abrir Visual Studio.
+2. Elegir "Abrir un proyecto o solución".
+3. Seleccionar el archivo pryBarbero-BDAcces.sln.
+4. Ejecutar con F5.
+
+Funcionamiento:
+- El botón "Abrir base de datos" permite seleccionar cualquier archivo Access .accdb o .mdb.
+- El ComboBox muestra las tablas encontradas.
+- Al seleccionar una tabla, se cargan sus datos en el DataGridView.
+- El diseño está dentro de frmPrincipal.Designer.cs, por lo tanto se ve correctamente en el diseñador y al ejecutar.
+
+Archivos principales:
+- Program.cs: abre el formulario principal.
+- ConexionDB.cs: construye la conexión a Access.
+- TablaService.cs: obtiene tablas y datos.
+- frmPrincipal.cs: contiene la lógica de botones y consultas.
+- frmPrincipal.Designer.cs: contiene toda la interfaz visual.
