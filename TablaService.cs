@@ -5,10 +5,8 @@ using System.Data.OleDb;
 
 namespace pryBarbero_BDAcces
 {
-    /// <summary>
     /// Provee operaciones de lectura sobre la base de datos Access:
     /// obtener tablas y mostrar los registros de la tabla seleccionada.
-    /// </summary>
     public class TablaService
     {
         private readonly ConexionDB _conexionDB;

@@ -10,6 +10,7 @@ namespace pryBarbero_BDAcces
         {
             try
             {
+                // Habilita estilos visuales y ejecuta el formulario principal de la aplicación.
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new frmPrincipal());
